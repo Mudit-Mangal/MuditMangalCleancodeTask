@@ -14,11 +14,9 @@ class Interest{
 static double CI(int principal,double rate, int time) {
 		
 	return principal* Math.pow((1+(rate/100)),time) - principal;
-		
-	}
 	
+	}	
 }
-
 
 public class App 
 {
